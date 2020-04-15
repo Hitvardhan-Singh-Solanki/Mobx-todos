@@ -1,0 +1,11 @@
+
+.navbar-container .ui.secondary.pointing.menu .active.item, 
+.navbar-container .ui.secondary.pointing.menu .active.item:hover {
+    border-bottom-color: #21ba45 ;
+    color: #21ba45 
+}
+
+.navbar-container .ui.secondary.pointing.menu .item:hover,
+.navbar-container .ui.secondary.pointing.menu .item {
+    color: #fff;
+}

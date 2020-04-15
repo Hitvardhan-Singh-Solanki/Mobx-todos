@@ -1,0 +1,28 @@
+.todos-list-container {
+    flex: 1;
+    margin: 20px auto;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-flow: column;
+    /* justify-content: space-evenly; */
+}
+
+.ui.toggle.checkbox {
+    margin-bottom: 10px;
+}
+
+.todos-list-container .ui.toggle.checkbox input:focus:checked ~ .box, 
+.todos-list-container .ui.toggle.checkbox input:checked ~ .box, 
+.todos-list-container .ui.toggle.checkbox input:focus:checked ~ label,
+.todos-list-container .ui.toggle.checkbox input:checked ~ label,
+.todos-list-container .ui.toggle.checkbox label {
+    color: #fff !important
+}
+
+.todos-list-container .ui.toggle.checkbox input:checked ~ .box::before, 
+.todos-list-container .ui.toggle.checkbox input:focus:checked ~ .box::before, 
+.todos-list-container .ui.toggle.checkbox input:checked ~ label::before ,
+.todos-list-container .ui.toggle.checkbox input:focus:checked ~ label::before {
+    background-color: green !important;
+}
